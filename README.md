@@ -1,13 +1,17 @@
 # React-Firebase-notes
-<br>
-<b>Setup</b><br>
-You'll need to get your connection strings from Firebase. Place a file called config.js in src/Config/ that contains your Firebase config as a simple javascript object, exported as DB_CONFIG. For example,
 
+#Setup
+
+You'll need to get your connection strings from Firebase. Place a file called config.js in src/Config/ that contains your Firebase config as a simple javascript object, exported as DB_CONFIG. For example,
+```
 export const DB_CONFIG ={
   apiKey: your_api_key,
   authDomain: your_auth_domain,
   // etc..
 }
-
-<b>Starting the app</b><br>
+```
+#Starting the app
+```
+npm install
 npm start
+```
