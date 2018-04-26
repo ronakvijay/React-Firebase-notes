@@ -1,6 +1,6 @@
 # React-Firebase-notes
-
-<b>Setup</b>
+<br>
+<b>Setup</b><br>
 You'll need to get your connection strings from Firebase. Place a file called config.js in src/Config/ that contains your Firebase config as a simple javascript object, exported as DB_CONFIG. For example,
 
 export const DB_CONFIG ={
@@ -9,5 +9,5 @@ export const DB_CONFIG ={
   // etc..
 }
 
-<b>Starting the app</b>
+<b>Starting the app</b><br>
 npm start
